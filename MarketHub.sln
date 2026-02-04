@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketHub.Domain", "src\Mar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketHub.Application", "src\MarketHub.Application\MarketHub.Application.csproj", "{1E8FEFEB-07B2-415A-BE87-96209EA59498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketHub.Infrastructure", "MarketHub.Infrastructure\MarketHub.Infrastructure.csproj", "{B0791415-03E2-4C10-86CA-C3EB86655AAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketHub.Infrastructure", "src\MarketHub.Infrastructure\MarketHub.Infrastructure.csproj", "{B0791415-03E2-4C10-86CA-C3EB86655AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketHub.API", "src\MarketHub.API\MarketHub.API.csproj", "{11DDA671-4C8E-47E8-9F6D-6372118DC29C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{B0791415-03E2-4C10-86CA-C3EB86655AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0791415-03E2-4C10-86CA-C3EB86655AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0791415-03E2-4C10-86CA-C3EB86655AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DDA671-4C8E-47E8-9F6D-6372118DC29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DDA671-4C8E-47E8-9F6D-6372118DC29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DDA671-4C8E-47E8-9F6D-6372118DC29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DDA671-4C8E-47E8-9F6D-6372118DC29C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +43,6 @@ Global
 		{B40A99B9-77CC-4706-AA8E-99D78D7E3C04} = {A3D17AD3-F221-4306-90DA-F294922A5D47}
 		{1E8FEFEB-07B2-415A-BE87-96209EA59498} = {A3D17AD3-F221-4306-90DA-F294922A5D47}
 		{B0791415-03E2-4C10-86CA-C3EB86655AAA} = {A3D17AD3-F221-4306-90DA-F294922A5D47}
+		{11DDA671-4C8E-47E8-9F6D-6372118DC29C} = {A3D17AD3-F221-4306-90DA-F294922A5D47}
 	EndGlobalSection
 EndGlobal
