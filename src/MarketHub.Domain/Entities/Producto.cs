@@ -15,6 +15,5 @@ namespace MarketHub.Domain.Entities
         public Categoria Categoria { get; set; } = null!;
         public ICollection<Publicacion> Publicaciones { get; set; } = new List<Publicacion>();
 
-
     }
 }

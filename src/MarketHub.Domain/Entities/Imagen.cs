@@ -5,13 +5,14 @@ namespace MarketHub.Domain.Entities
     public class Imagen
     {
         public int Id { get; set; }
-        public int IdCarrito { get; set; }
         public int IdPublicacion { get; set; }
-        public int Cantidad { get; set; }
+        public string Url { get; set; } = string.Empty;
+        public string? Descripcion { get; set; }
+        public int Orden { get; set; } = 0;
+        public bool EsPrincipal { get; set; } = false;
         public Estado Estado { get; set; } = Estado.ALTA;
-        public DateTime FechaAgregado { get; set; } = DateTime.UtcNow;
+        public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
 
-        public Carrito Carrito { get; set; } = null!;
         public Publicacion Publicacion { get; set; } = null!;
     }
 }
